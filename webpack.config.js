@@ -22,3 +22,29 @@ var config = {
    }
 }
 module.exports = config;
+
+// module.exports = {
+//    entry: './main.js',
+//    output: {
+//       filename: 'bundle.js'
+//    },
+// // output: {
+// //       path:'/',
+// //       filename: 'index.js',
+// //    },
+//    module: {
+//       loaders: [
+//          {
+//             loader: 'babel-loader',
+//             test: /\.js$/,
+//             exclude: /node_modules/,
+//             query: {
+//                presets: ['es2015', 'react']
+//             }
+//          }
+//       ]
+//    },
+//    devServer: {
+//       port: 7777
+//    }
+// };
